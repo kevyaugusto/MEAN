@@ -4,11 +4,18 @@
   "description": "Human Resources Web Application using MEAN - MongoDB, Express, AngularJS and NodeJS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "populate": "node ./bin/populateDb"
   },
   "keywords": [
     "human-resources"
   ],
   "author": "Kevy Augusto Mendes Granero",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.10",
+    "mongoose-post-find": "0.0.2"
+  }
 }
